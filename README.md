@@ -12,7 +12,7 @@
 
 
 ## Simulation of two replication forks
-<!-- <p align="center">
+<p align="center">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" alt="Two forks" width="400" align="left" />
   This animation demonstrates the dynamics of two replication forks:
 
@@ -21,14 +21,18 @@
 - More details are available in the `docs/` folder  
 
 <br clear="left"/>
-</p> -->
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+</p>
+<!-- <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" width="400" align="left"/>
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/>
+</div> -->
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400" align="left"/>
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.png" width="400"/>
 </div>
-
-
+<!-- 
 <p align="center">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.png" width="90%" align="center" />
 </p>
-
+ -->
