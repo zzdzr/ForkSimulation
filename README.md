@@ -10,7 +10,7 @@
 <br clear="left"/> -->
 
 <p align="right">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.svg" width="50" align="right" />
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.svg" width="400" align="right" />
 </p>
 
 
