@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="793.70135"
+   height="1122.52"
+   viewBox="0 0 793.70135 1122.52"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <g
+     id="g8"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,1122.52)">
+    <g
+       id="g10"
+       transform="translate(133.768,713.7)">
+      <path
+         d="M 0,0 H 343.711"
+         style="fill:none;stroke:#000000;stroke-width:0.797;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path12" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,141.24,704.391)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text16"><tspan
+         x="0 8.6614847 11.843539 17.572033 23.300529 28.018816 31.200871 35.656147 42.021252 55.394047 61.122543"
+         y="0"
+         id="tspan14">Algorithm1:</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,208.86214,704.391)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text20"><tspan
+         x="0 5.5352206 8.3028307 13.838052 18.819351 21.586962 26.014341 29.334875 38.46759 43.448891 46.216503 50.643879 55.071259 60.60648 63.374092 71.119019 78.452484 82.879868 88.415085 91.182693 93.95031 98.377686 103.35899 107.23344 110.00105 114.98235 123.84508 129.37035 132.13795 140.17079 145.70601 148.47362 153.45493 157.32938 160.09698 165.07829"
+         y="0"
+         id="tspan18">Single-MoleculeReplicationSimulation</tspan></text>
+    <g
+       id="g22"
+       transform="translate(133.768,700.063)">
+      <path
+         d="M 0,0 H 343.711"
+         style="fill:none;stroke:#000000;stroke-width:0.797;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path24" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,148.712,690.2)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text28"><tspan
+         x="0 4.3446898 10.709795 17.0749 23.440004 27.895281"
+         y="0"
+         id="tspan26">Input:</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,184.22269,690.2)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text32"><tspan
+         x="0 6.5015926 11.482893 14.250503 19.508764 27.810598 32.237976 39.457874 42.225483 46.652863 52.188084 57.169384 61.043839"
+         y="0"
+         id="tspan30">Polymerlength</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,254.1193,690.2)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text36"><tspan
+         x="0"
+         y="0"
+         id="tspan34">N</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,263.21017,690.2)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text40"><tspan
+         x="0 6.0951185 9.1396894 14.120989 18.02334 26.599146 29.366756 34.348057 39.329357 44.864578 47.632187 53.167408 61.466251 65.368607 69.795982 74.777283 77.544891 82.526192 91.37896"
+         y="0"
+         id="tspan38">;forkloadingregion[</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,357.35674,690.2)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text44"><tspan
+         x="0 3.1720917 8.0009642 13.267195 18.452728 25.139626 28.73712 34.003349 38.767464 42.36496 46.796326 49.968418 54.797287 60.063519 65.249054 73.17131 79.150864"
+         y="0"
+         id="tspan42">loadStart,loadEnd</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,441.69314,690.2)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text50"><tspan
+         x="0 2.7676103"
+         y="0"
+         id="tspan46">];</tspan><tspan
+         x="-257.47513 -254.70752 -249.1723 -246.40469 -242.53024 -239.76263 -234.78133 -228.69617 -224.76692 -218.95276 -214.52538 -210.09799 -204.56277 -197.31598"
+         y="11.955"
+         id="tspan48">initialspeeds(</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,248.25162,678.245)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text54"><tspan
+         x="0"
+         y="0"
+         id="tspan52">v</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,253.085,676.75)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text58"><tspan
+         x="0"
+         y="0"
+         id="tspan56">l</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,256.143,678.245)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text62"><tspan
+         x="0 4.4313645"
+         y="0"
+         id="tspan60">,v</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,265.4,676.75)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text66"><tspan
+         x="0"
+         y="0"
+         id="tspan64">r</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,269.811,678.245)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text70"><tspan
+         x="0 3.8744552 9.9596109 13.834066 18.261446 22.163795 30.465631 33.233242 38.768463 43.749763 47.624218 50.391827 55.373127 64.235855 69.77108 72.538689 76.467934 80.342392 84.244743 87.012352 92.537613 98.07283 101.94729 104.7149 109.6962 118.55892"
+         y="0"
+         id="tspan68">);terminationdistribution(</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,392.24438,678.245)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text74"><tspan
+         x="0"
+         y="0"
+         id="tspan72">µ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,398.244,676.75)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text78"><tspan
+         x="0 3.009892 6.7896914 10.704783"
+         y="0"
+         id="tspan76">term</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,416.515,678.245)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text82"><tspan
+         x="0 4.4313645"
+         y="0"
+         id="tspan80">,σ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,426.636,676.75)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text86"><tspan
+         x="0 3.009892 6.7896914 10.704783"
+         y="0"
+         id="tspan84">term</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,444.907,678.245)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text92"><tspan
+         x="0 3.8744552"
+         y="0"
+         id="tspan88">);</tspan><tspan
+         x="-260.689 -255.15378 -250.17249 -246.27013 -242.36778 -239.60017 -235.17279 -227.9529 -222.41768 -219.65005 -215.72081 -211.84636 -207.944 -205.17639 -199.64117 -194.10596 -190.23151 -187.46388 -182.48259 -173.62982"
+         y="11.956"
+         id="tspan90">barrierdistribution(</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,275.15163,666.289)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text96"><tspan
+         x="0"
+         y="0"
+         id="tspan94">µ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,281.158,664.795)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text100"><tspan
+         x="0 3.5036371 7.8253012 11.740393 15.64851 18.467319 22.254093"
+         y="0"
+         id="tspan98">barrier</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,307.82,666.289)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text104"><tspan
+         x="0 4.4313645"
+         y="0"
+         id="tspan102">,σ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,317.941,664.795)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text108"><tspan
+         x="0 3.5036371 7.8253012 11.740393 15.655483 18.467319 22.254093"
+         y="0"
+         id="tspan106">barrier</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,344.603,666.289)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text114"><tspan
+         x="0 3.8744552 9.9596109 14.386991 19.36829 24.903511 30.438732 33.206341 35.973953 41.509174 49.817982 55.353203 60.334503 64.236855 69.218155 77.519989 81.947365 85.821823 90.249199 94.15155"
+         y="0"
+         id="tspan110">);couplingparameters</tspan><tspan
+         x="-160.38499"
+         y="11.955"
+         id="tspan112">(</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,188.09246,654.334)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text118"><tspan
+         x="0 5.4953704 9.9267349"
+         y="0"
+         id="tspan116">k,σ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,203.713,652.84)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text122"><tspan
+         x="0"
+         y="0"
+         id="tspan120">c</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,207.772,654.334)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text126"><tspan
+         x="0 4.4313645 10.834328 15.265692"
+         y="0"
+         id="tspan124">,α,p</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,228.05,652.84)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text130"><tspan
+         x="0 4.6661696 7.4849796 12.002607 15.782407"
+         y="0"
+         id="tspan128">fixed</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,248.478,654.334)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text134"><tspan
+         x="0 3.8744552 9.9596109 15.494832 19.922211 24.34959 29.330891 34.866112 40.401333 43.168941 45.936554 51.471771 59.780582 65.315804 69.208191 74.189491 79.724709 84.706009 90.241234 93.008842 95.776451 98.54406 102.14953"
+         y="0"
+         id="tspan132">);decouplingprobability</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,359.20333,654.334)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text138"><tspan
+         x="0"
+         y="0"
+         id="tspan136">p</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,364.215,652.84)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text142"><tspan
+         x="0 4.1473188 7.9271183 11.487244 15.419769 20.129873 24.236744 26.798222"
+         y="0"
+         id="tspan140">decouple</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,395.29,654.334)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text146"><tspan
+         x="0 6.085156 11.620377 16.601677 19.369287 23.298536 31.053425 36.588646 41.569946"
+         y="0"
+         id="tspan144">;noisefag</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,148.712,642.379)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text150"><tspan
+         x="0 8.6066904 14.971795 19.427071 25.792175 32.15728 36.612556"
+         y="0"
+         id="tspan148">Output:</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,192.93997,642.379)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text154"><tspan
+         x="0 5.6667271 10.648026 14.550377 23.126183 27.000639 30.902988 36.442196 39.486767 43.914146 48.341522 52.215981 57.197281 61.099628 63.867241 68.294617 75.541412 80.522713 86.057938 94.920662 99.348045 104.32935 109.86456 115.39979 118.1674 122.59477 131.44754 135.37679 139.25125 144.23254 148.10699 152.53438 159.78117 163.71042 167.58488 172.56618 176.46854 180.8959 189.75864 192.52625 201.37901 208.85097 216.4614 222.96498"
+         y="0"
+         id="tspan152">ForktrajectoriesandcoupledstatesstoredinHDF5</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,148.712,626.134)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text158"><tspan
+         x="0 4.3446898 10.709795 13.89185 18.347124 21.529179 27.098272 30.280327 33.462379 38.554264 44.12336 48.578632 51.760689 57.489182 63.85429"
+         y="0"
+         id="tspan156">Initialization:</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,148.712,614.179)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text162"><tspan
+         x="0 5.5352206 10.516521 18.818356 24.353575 27.121185 34.866112 38.740566 43.167946 47.070297 55.372131 58.13974 63.674961 68.656265 72.530716 75.298325 80.279625 89.142357 93.071602 95.839218 99.713669 104.14105"
+         y="0"
+         id="tspan160">Sampleterminationsites</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,260.09985,614.179)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text166"><tspan
+         x="0 10.518513"
+         y="0"
+         id="tspan164">∼N</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,280.25717,614.179)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text170"><tspan
+         x="0"
+         y="0"
+         id="tspan168">(</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,284.13163,614.179)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text174"><tspan
+         x="0"
+         y="0"
+         id="tspan172">µ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,290.136,612.685)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text178"><tspan
+         x="0 3.009892 6.7896914 10.704783"
+         y="0"
+         id="tspan176">term</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,308.407,614.179)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text182"><tspan
+         x="0 4.4313645"
+         y="0"
+         id="tspan180">,σ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,318.528,612.685)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text186"><tspan
+         x="0 3.009892 6.7896914 10.704783"
+         y="0"
+         id="tspan184">term</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,336.798,614.179)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text192"><tspan
+         x="0 3.8744552"
+         y="0"
+         id="tspan188">);</tspan><tspan
+         x="-188.086 -182.55078 -177.56947 -169.26764 -163.73242 -160.96481 -153.21989 -147.68466 -142.70337 -138.80103 -134.89867 -132.13106 -127.70367 -120.47382 -116.54457 -113.77696 -109.9025"
+         y="11.955"
+         id="tspan190">Samplebarriersite</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,234.64042,602.224)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text196"><tspan
+         x="0 10.518513"
+         y="0"
+         id="tspan194">∼N</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,254.79775,602.224)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text200"><tspan
+         x="0"
+         y="0"
+         id="tspan198">(</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,258.6722,602.224)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text204"><tspan
+         x="0"
+         y="0"
+         id="tspan202">µ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,264.676,600.73)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text208"><tspan
+         x="0 3.5036371 7.8253012 11.740393 15.655483 18.474293 22.254093"
+         y="0"
+         id="tspan206">barrier</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,291.338,602.224)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text212"><tspan
+         x="0 4.4313645"
+         y="0"
+         id="tspan210">,σ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,301.459,600.73)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text216"><tspan
+         x="0 3.5036371 7.8253012 11.740393 15.655483 18.474293 22.254093"
+         y="0"
+         id="tspan214">barrier</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,328.122,602.224)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text222"><tspan
+         x="0 3.8744552"
+         y="0"
+         id="tspan218">);</tspan><tspan
+         x="-179.41 -172.62946 -169.86185 -164.88054 -160.45317 -152.70824 -148.80589 -144.37851 -138.84329 -136.07568 -133.30807 -128.88069 -123.89939 -120.02493 -117.25732 -112.27602 -103.41329 -98.431992 -94.529648 -91.762032 -86.780731 -84.013123 -75.160355 -72.392746 -63.539982"
+         y="11.955"
+         id="tspan220">Placereplicationoriginin[</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,267.34963,590.269)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text226"><tspan
+         x="0 3.1720917 8.0009642 13.267195 18.452728 25.129662 28.727158 33.993389 38.767464 42.36496 46.796326 49.958454 54.797287 60.053558 65.23909 73.17131 79.150864"
+         y="0"
+         id="tspan224">loadStart,loadEnd</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,351.68603,590.269)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text232"><tspan
+         x="0 2.7676103"
+         y="0"
+         id="tspan228">];</tspan><tspan
+         x="-202.97403 -199.37653 -193.84131 -191.0737 -187.19925 -184.43164 -179.45033 -176.68272 -173.91512 -169.48773 -161.74281 -158.9752 -154.54782 -151.50325 -147.6288 -142.64749 -138.74515 -135.97754 -130.99623 -125.73997 -118.538 -115.49343 -110.51213 -106.60978 -101.35152 -94.104729 -86.909737 -84.142128 -80.26767 -71.414909 -67.485657 -61.671482 -57.244102 -52.816723 -47.281502 -40.024746"
+         y="11.955"
+         id="tspan230">Initializeleft/rightforkswithspeeds(</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,315.53574,578.314)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text236"><tspan
+         x="0"
+         y="0"
+         id="tspan234">v</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,320.361,576.819)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text240"><tspan
+         x="0"
+         y="0"
+         id="tspan238">l</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,323.419,578.314)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text244"><tspan
+         x="0 4.4313645"
+         y="0"
+         id="tspan242">,v</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,332.676,576.819)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text248"><tspan
+         x="0"
+         y="0"
+         id="tspan246">r</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,337.087,578.314)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text254"><tspan
+         x="0 3.8744552"
+         y="0"
+         id="tspan250">);</tspan><tspan
+         x="-188.375 -182.83978 -178.4124 -171.2204 -166.79301 -161.81172 -156.2765 -150.74127 -147.97366 -143.5463 -134.68356 -130.7543 -126.87985 -121.89855 -118.0241"
+         y="11.955"
+         id="tspan252">Setcoupledstate</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,226.80783,566.359)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text258"><tspan
+         x="0"
+         y="0"
+         id="tspan256">←</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,239.54003,566.359)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text262"><tspan
+         x="0 4.9812999"
+         y="0"
+         id="tspan260">1;</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,148.712,550.114)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text266"><tspan
+         x="0 8.2749357 14.64004 17.822096 21.00415"
+         y="0"
+         id="tspan264">while</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,178.28498,550.114)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMTI10;-inkscape-font-specification:CMTI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text270"><tspan
+         x="0 4.0747032 9.1665878 14.513515 19.6054 22.15184 26.226545 34.88504 38.958748 42.268322 47.360207 50.669785"
+         y="0"
+         id="tspan268">coupledstate</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,237.10417,550.114)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text274"><tspan
+         x="0 10.508551"
+         y="0"
+         id="tspan272">=1</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,255.92153,550.114)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text278"><tspan
+         x="0 6.3651052"
+         y="0"
+         id="tspan276">do</tspan></text>
+    <g
+       id="g280"
+       transform="translate(153.893,403.132)">
+      <path
+         d="M 0,0 V 143.396"
+         style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path282" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,164.055,538.159)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text286"><tspan
+         x="0 7.3334699 11.760849 16.188229 21.169529 25.071878 33.924644 36.969215 41.950516 45.852867 54.438637 60.242847 65.224144 69.153397 71.921005 75.795464 78.563072 83.544373 89.07959 93.008842"
+         y="0"
+         id="tspan284">Recordforkpositions;</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,164.055,526.204)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text290"><tspan
+         x="0 3.5008576 9.229353 13.94764 19.198927 24.768021 29.541101"
+         y="0"
+         id="tspan288">foreach</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,203.27875,526.204)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMTI10;-inkscape-font-specification:CMTI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text294"><tspan
+         x="0 3.0555294 8.1474142 12.348642"
+         y="0"
+         id="tspan292">fork</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,223.7768,526.204)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text298"><tspan
+         x="0 9.4116678"
+         y="0"
+         id="tspan296">∈{</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,238.16977,526.204)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text302"><tspan
+         x="0 3.1621292 7.8106785 13.754366 17.35186 21.783224 26.557302 29.989418 35.090271 40.830719"
+         y="0"
+         id="tspan300">left,right</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,282.59798,526.204)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text306"><tspan
+         x="0"
+         y="0"
+         id="tspan304">}</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,290.90679,526.204)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text310"><tspan
+         x="0 6.3651052"
+         y="0"
+         id="tspan308">do</tspan></text>
+    <g
+       id="g312"
+       transform="translate(169.235,454.783)">
+      <path
+         d="M 0,0 V 67.834"
+         style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path314" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,179.397,514.248)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text318"><tspan
+         x="0 9.1327152 13.835063 18.814369 26.569258 31.550558 37.085777 44.830704 48.759953 52.634407 57.061787 65.924515 70.905815 75.333199 79.760574 84.741875 88.644226 94.179443 96.94706 102.47231 110.78112 114.65558 122.95442 126.88367 132.69785 137.12523 141.55261 150.40536 155.38667 160.92189 169.78462 175.31984 178.08745 181.97984 186.41718 190.84456 194.71901 197.48663 202.46793 208.00314"
+         y="0"
+         id="tspan316">Moveonestepaccordingtospeedanddirection;</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,179.397,502.293)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text322"><tspan
+         x="0 3.1820545"
+         y="0"
+         id="tspan320">if</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,190.48338,502.293)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMTI10;-inkscape-font-specification:CMTI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text326"><tspan
+         x="0 3.0555294 8.1474142 12.348642 20.498049 24.191185 28.265888 33.357773 37.940571 43.032455 47.61525 55.255569 58.565144 63.147942 67.349167 75.496582 78.552109 84.153084 89.244972 92.55455 95.610077 100.70196"
+         y="0"
+         id="tspan324">forkreachestermination</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,300.87098,502.293)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text330"><tspan
+         x="0 4.4552746 10.82038 16.071667"
+         y="0"
+         id="tspan328">then</tspan></text>
+    <g
+       id="g332"
+       transform="translate(184.578,486.353)">
+      <path
+         d="M 0,0 V 12.354"
+         style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path334" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,194.74,490.338)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text338"><tspan
+         x="0 3.8744552 8.3018341 12.204185 20.50602 23.27363 28.808851 33.79015 37.664604 45.409531 48.454102 53.435402 57.862782 61.737236 66.718536 70.620888 75.87915"
+         y="0"
+         id="tspan336">terminatefactory;</tspan></text>
+    <g
+       id="g340"
+       transform="translate(184.777,486.552)">
+      <path
+         d="M 0,0 H 4.981"
+         style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path342" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,179.397,474.553)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text346"><tspan
+         x="0 3.1820545"
+         y="0"
+         id="tspan344">if</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,190.48338,474.553)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMTI10;-inkscape-font-specification:CMTI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text350"><tspan
+         x="0 3.0555294 8.1474142 12.348642 20.498049 25.080845 28.773981 33.865868 37.939575 42.013279 46.596077 54.236393 58.311096 63.402981 67.60421 71.805443 74.86097 79.443764"
+         y="0"
+         id="tspan348">forkcrossesbarrier</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,278.51192,474.553)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMBX10;-inkscape-font-specification:CMBX10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text354"><tspan
+         x="0 4.4552746 10.82038 16.071667"
+         y="0"
+         id="tspan352">then</tspan></text>
+    <g
+       id="g356"
+       transform="translate(184.578,458.613)">
+      <path
+         d="M 0,0 V 12.354"
+         style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path358" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,194.74,462.598)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text362"><tspan
+         x="0 5.5352206 9.9625998 14.389979 19.371279 24.9065 30.441721 33.209332 40.954258 48.149246 50.916855 54.791309 63.654041 69.189262 73.091614 78.072914 83.598167 88.579468 94.114693 96.882301 99.64991 102.41752 106.02299"
+         y="0"
+         id="tspan360">decouplewithprobability</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,309.33879,462.598)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text366"><tspan
+         x="0"
+         y="0"
+         id="tspan364">p</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,314.35,461.103)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text370"><tspan
+         x="0 4.1473188 7.9271183 11.487244 15.419769 20.129873 24.236744 26.798222"
+         y="0"
+         id="tspan368">decouple</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,345.426,462.598)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text374"><tspan
+         x="0"
+         y="0"
+         id="tspan372">;</tspan></text>
+    <g
+       id="g376"
+       transform="translate(184.777,458.812)">
+      <path
+         d="M 0,0 H 4.981"
+         style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path378" />
+    </g>
+    <g
+       id="g380"
+       transform="translate(169.435,454.982)">
+      <path
+         d="M 0,0 H 4.981"
+         style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path382" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,164.055,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text386"><tspan
+         x="0 7.4719501 13.286123 18.821344 23.802645 27.677099 35.422024 38.466595 43.447895 47.350246 55.926052 59.855301 65.669472 70.096855 74.524231 80.059456 87.316208 92.572479 101.14828 105.57567 110.55696 116.09219 121.6274 124.39502 127.16263 132.69785 140.99669 144.89905 150.43427 153.20187 157.62926"
+         y="0"
+         id="tspan384">Updateforkspeedsbycouplingrule:</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,328.88522,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text390"><tspan
+         x="0"
+         y="0"
+         id="tspan388">v</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,336.83239,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text394"><tspan
+         x="0"
+         y="0"
+         id="tspan392">←</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,349.56459,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text398"><tspan
+         x="0"
+         y="0"
+         id="tspan396">v</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,356.96381,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text402"><tspan
+         x="0"
+         y="0"
+         id="tspan400">−</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,366.92442,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text406"><tspan
+         x="0"
+         y="0"
+         id="tspan404">k</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,372.42975,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text410"><tspan
+         x="0"
+         y="0"
+         id="tspan408">(</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,376.30421,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text414"><tspan
+         x="0"
+         y="0"
+         id="tspan412">v</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,381.132,441.488)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text418"><tspan
+         x="0"
+         y="0"
+         id="tspan416">l</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,386.404,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text422"><tspan
+         x="0"
+         y="0"
+         id="tspan420">−</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,396.36461,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text426"><tspan
+         x="0"
+         y="0"
+         id="tspan424">v</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,401.196,441.488)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text430"><tspan
+         x="0"
+         y="0"
+         id="tspan428">r</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,405.607,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text434"><tspan
+         x="0 6.0861526"
+         y="0"
+         id="tspan432">)+</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,421.65376,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text438"><tspan
+         x="0"
+         y="0"
+         id="tspan436">σ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,427.351,441.488)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text442"><tspan
+         x="0"
+         y="0"
+         id="tspan440">c</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,431.41,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text446"><tspan
+         x="0"
+         y="0"
+         id="tspan444">ξ</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,436.22692,442.982)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text452"><tspan
+         x="0"
+         y="0"
+         id="tspan448">;</tspan><tspan
+         x="-272.17191 -264.69998 -258.8858 -253.35057 -248.36928 -244.49481 -236.74989 -232.32251 -227.34122 -221.806 -216.27077 -213.50316 -209.07578 -200.22302 -196.29376 -192.41931 -187.43802 -183.56355 -175.80867 -170.5524 -161.97659 -158.10214 -154.19978 -149.21849 -143.68327 -139.75401 -136.9864 -133.11195 -130.34435 -125.36304 -116.51028 -110.97506 -107.07271 -102.09141 -96.556183 -91.574883 -86.039665 -83.272057 -80.504448 -77.736832 -74.141335 -68.883072"
+         y="11.955"
+         id="tspan450">Updatecoupledstatebytransitionprobability:</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,169.036,419.072)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text456"><tspan
+         x="0"
+         y="0"
+         id="tspan454">P</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,176.81679,419.072)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text460"><tspan
+         x="0 3.8744552"
+         y="0"
+         id="tspan458">(1</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,188.44215,419.072)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text464"><tspan
+         x="0"
+         y="0"
+         id="tspan462">→</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,201.16439,419.072)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text468"><tspan
+         x="0 4.9812999 11.625358"
+         y="0"
+         id="tspan466">0)=</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,223.30826,419.072)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text472"><tspan
+         x="0"
+         y="0"
+         id="tspan470">f</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,229.26191,419.072)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text476"><tspan
+         x="0"
+         y="0"
+         id="tspan474">(</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,233.13636,419.072)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text480"><tspan
+         x="0 6.4029632 10.834328"
+         y="0"
+         id="tspan478">α,p</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,248.983,417.578)"
+       style="font-variant:normal;font-weight:normal;font-size:6.9738px;font-family:CMMI7;-inkscape-font-specification:CMMI7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text484"><tspan
+         x="0 4.6661696 7.4849796 12.002607 15.782407"
+         y="0"
+         id="tspan482">fixed</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,269.411,419.072)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text488"><tspan
+         x="0 4.4313645"
+         y="0"
+         id="tspan486">,t</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,277.43986,419.072)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text494"><tspan
+         x="0 3.8744552"
+         y="0"
+         id="tspan490">);</tspan><tspan
+         x="-113.38486 -109.78736 -104.25214 -99.824768 -95.922417 -91.495033 -83.193199 -78.765823 -73.509552 -66.307587 -62.433136 -59.665524 -51.363689"
+         y="11.955"
+         id="tspan492">Incrementtime</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,233.8211,407.117)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text498"><tspan
+         x="0"
+         y="0"
+         id="tspan496">t</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,240.18819,407.117)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text502"><tspan
+         x="0"
+         y="0"
+         id="tspan500">←</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,252.9204,407.117)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text506"><tspan
+         x="0"
+         y="0"
+         id="tspan504">t</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,258.72959,407.117)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text510"><tspan
+         x="0 9.9606075 14.941908"
+         y="0"
+         id="tspan508">+1;</tspan></text>
+    <g
+       id="g512"
+       transform="translate(154.092,403.331)">
+      <path
+         d="M 0,0 H 4.981"
+         style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path514" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,148.712,387.042)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text520"><tspan
+         x="0 5.5352206 9.4096756 14.390976 18.293325 26.038252 29.912706 33.815056 39.354263 42.398834 46.826214 51.253593 55.128048 60.109348 64.011696 72.587502 78.122726 83.104027 86.978477 95.831245 100.81255 106.34776 115.21049 119.63788 124.61917 130.15439 135.68962 138.45723 142.88461 151.73737 155.66663 159.54108 164.52237 168.39684 172.8242 176.75346"
+         y="0"
+         id="tspan516">Storetrajectorypathandcoupledstates;</tspan><tspan
+         x="0 7.4719501 12.45325 17.434549 21.336901 25.76428 30.745581 35.726879 39.601334 47.34626 52.32756 55.095169 61.190289 65.119537 67.887146 75.910034 81.445251 84.21286 89.19416 93.068619 95.836227 100.81753 106.35275 113.59954 118.58084 124.11607 132.97879 136.90804 141.61038 146.58969 154.33463 158.20908 166.51788 173.98984 181.60027 188.10385 193.08514"
+         y="11.955"
+         id="tspan518">AggregateallsimulationsandsavetoHDF5;</tspan></text>
+    <g
+       id="g522"
+       transform="translate(133.768,369.109)">
+      <path
+         d="M 0,0 H 343.711"
+         style="fill:none;stroke:#000000;stroke-width:0.797;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path524" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,303.133,139.255)"
+       style="font-variant:normal;font-weight:normal;font-size:9.9626px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text528"><tspan
+         x="0"
+         y="0"
+         id="tspan526">1</tspan></text>
+  </g>
+</svg>

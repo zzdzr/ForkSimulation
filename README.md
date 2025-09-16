@@ -34,5 +34,5 @@ This animation demonstrates the dynamics of replication forks under stress:
 
 ---
 <p align="center">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="90%" align="center" />
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.svg" width="90%" align="center" />
 </p>
