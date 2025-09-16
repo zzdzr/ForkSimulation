@@ -1,5 +1,5 @@
 ## Simulation of Fork Dynamics
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+<div style="ddisplay: flex; justify-content: center; gap: 20px">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="400"/>
 </div>
