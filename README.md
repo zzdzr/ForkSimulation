@@ -1,25 +1,16 @@
-<!-- 第一行：左图 + 右说明 -->
-<table>
-  <tr>
-    <!-- 左边动态图 -->
-    <td width="50%" align="left" valign="top">
-      <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="100%" />
-    </td>
+## Simulation of Fork Dynamics
+<img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" alt="ForkSimulation" width="400" align="left"/>
 
-    <!-- 右边说明文字 -->
-    <td width="50%" align="left" valign="middle">
-      <h3>Simulation of Fork Dynamics</h3>
-      <p>
-        This animation demonstrates the dynamics of replication forks under stress.<br>
-        • Left panel: progressive fork movement over time<br>
-        • Right panel: representative frame snapshot<br>
-        More details are available in the <code>docs/</code> folder.
-      </p>
-    </td>
-  </tr>
-</table>
+This animation demonstrates the dynamics of replication forks under stress:
 
-<!-- 第二行：整行静态图 -->
+- **Left panel**: progressive fork movement over time  
+- **Right panel**: representative frame snapshot  
+- More details are available in the `docs/` folder  
+
+<br clear="left"/>
+
+---
+
 <p align="center">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="90%" />
 </p>
