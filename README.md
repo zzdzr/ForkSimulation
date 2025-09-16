@@ -1,15 +1,15 @@
 ## Simulation of Fork Dynamics
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <!-- 左边动态图 -->
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" 
-       alt="ForkSimulation" width="400"/>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400"/>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.svg" width="400"/>
+    </td>
+  </tr>
+</table>
 
-  <!-- 右边算法图 -->
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" 
-       alt="Algorithm" width="400"/>
-</div>
-
-<br clear="both"/>
 
 
 ## Simulation of two replication forks
