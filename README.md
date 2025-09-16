@@ -19,4 +19,11 @@ This animation demonstrates the dynamics of replication forks under stress:
 ## Simulation of two replication forks
 <p align="center">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" width="400" align="left" />
+  This animation demonstrates the dynamics of two replication forks:
+
+- **Left panel**: progressive fork movement over time  
+- **Right panel**: representative frame snapshot  
+- More details are available in the `docs/` folder  
+
+<br clear="left"/>
 </p>
