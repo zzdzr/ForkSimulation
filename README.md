@@ -5,7 +5,7 @@
        alt="ForkSimulation" width="400"/>
 
   <!-- 右边算法图 -->
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.svg" 
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" 
        alt="Algorithm" width="400"/>
 </div>
 
