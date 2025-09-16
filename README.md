@@ -35,50 +35,32 @@ This animation demonstrates the dynamics of replication forks under stress:
 ---
 ## Algorithm 1. Single-Molecule Replication Simulation
 
-**Input:**  
-- Polymer length `N`  
-- Fork loading region `[loadStart, loadEnd]`  
-- Initial fork speeds `(speed_left, speed_right)`  
-- Termination distribution `(termCenters, termStd)`  
-- Barrier distribution `(barrier_centers, barrier_std)`  
-- Coupling parameters `(k, sigma_c, alpha, p_fixed)`  
-- Decoupling probability `decoupled_p`  
-- Noise flag `add_noise`  
+**Input:** Polymer length `N`, fork loading region `[loadStart, loadEnd]`,  
+initial speeds `(v_l, v_r)`, termination distribution, barrier distribution,  
+coupling parameters `(k, σ_c, α, p_fixed)`, decoupling probability, noise flag  
 
-**Output:**  
-- Fork trajectories and coupled states stored in HDF5  
+**Output:** Fork trajectories and coupled states (HDF5)
 
 ---
 
 1. **Initialization**  
-   1.1 Sample termination sites from Gaussian(`termCenters`, `termStd`)  
-   1.2 Sample a barrier site from Gaussian(`barrier_centers`, `barrier_std`)  
-   1.3 Place origin near `(loadStart, loadEnd)`  
-   1.4 Initialize left fork (upstream) and right fork (downstream)  
-   1.5 Set replication factory with coupled_state = 1  
+   - Sample termination sites and barrier site from Gaussian distributions  
+   - Place replication origin between `[loadStart, loadEnd]`  
+   - Initialize left/right forks with speeds `(v_l, v_r)`  
+   - Set `coupled_state = 1`  
 
-2. **Simulation loop (while coupled_state = 1):**  
-   2.1 Record current fork positions  
-   2.2 For each fork:  
-   &nbsp;&nbsp;&nbsp;&nbsp;a) Move one step based on speed & direction  
-   &nbsp;&nbsp;&nbsp;&nbsp;b) If fork reaches termination → set terminated  
-   &nbsp;&nbsp;&nbsp;&nbsp;c) If fork crosses barrier → decouple with probability `decoupled_p`  
-   2.3 Update fork speeds by coupling rule:  
-   &nbsp;&nbsp;&nbsp;&nbsp;`v ← v - k (v_left - v_right) + noise`  
-   2.4 Update coupled_state via Markov transition:  
-   &nbsp;&nbsp;&nbsp;&nbsp;`P(coupled → decoupled) = f(alpha, p_fixed, time)`  
-   2.5 Increment simulation time  
+2. **While `coupled_state = 1`:**  
+   a. Record fork positions  
+   b. For each fork:  
+      - Move one step according to speed & direction  
+      - If termination reached → terminate  
+      - If barrier crossed → decouple with probability `p_decouple`  
+   c. Update fork speeds by coupling rule:  
+      $v \gets v - k(v_l - v_r) + \sigma_c \xi$  
+   d. Update coupled state with transition probability:  
+      $P(1 \to 0) = f(\alpha, p_{fixed}, t)$  
+   e. Increment time  
 
-3. **Output**  
-   3.1 Store trajectory path and coupled states for this simulation  
-   3.2 Append results to global list  
-
-4. **Finalization**  
-   4.1 Write all results into HDF5 with attributes:  
-   - `positions[time, fork_id, pos]`  
-   - `coupled_states[time]`  
-   - Metadata: total_length, number_of_simulations, trajectory_segments  
-
-5. **Optional Post-processing**  
-   - Run 3D polymer simulations  
-   - Generate dynamic visualizations  
+3. **Finalize**  
+   - Save trajectory path and coupled states for each simulation  
+   - Aggregate all simulations and export to HDF5
