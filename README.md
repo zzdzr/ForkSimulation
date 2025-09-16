@@ -1,14 +1,9 @@
 ## Simulation of Fork Dynamics
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400"/>
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="400"/>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400"/>
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="400"/>
+</div>
+
 
 
 
