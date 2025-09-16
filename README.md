@@ -5,7 +5,7 @@
       <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400"/>
     </td>
     <td align="center" width="50%">
-      <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.svg" width="400"/>
+      <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="400"/>
     </td>
   </tr>
 </table>
