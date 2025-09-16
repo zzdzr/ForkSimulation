@@ -1,7 +1,7 @@
 <!-- 第一行：左图 + 右说明 -->
 <table>
   <tr>
-    <!-- 左边动态图，靠左 -->
+    <!-- 左边动态图 -->
     <td width="50%" align="left" valign="top">
       <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="100%" />
     </td>
@@ -11,9 +11,9 @@
       <h3>Simulation of Fork Dynamics</h3>
       <p>
         This animation demonstrates the dynamics of replication forks under stress.<br>
-        - Left panel: progressive fork movement over time<br>
-        - Right panel: a representative frame snapshot<br>
-        Additional details can be found in the <code>docs/</code> folder.
+        • Left panel: progressive fork movement over time<br>
+        • Right panel: representative frame snapshot<br>
+        More details are available in the <code>docs/</code> folder.
       </p>
     </td>
   </tr>
