@@ -18,5 +18,5 @@ This animation demonstrates the dynamics of replication forks under stress:
 
 ## Simulation of two replication forks
 <p align="center">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.png" width="90%" />
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" width="400" align="left" />
 </p>
