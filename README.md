@@ -24,7 +24,7 @@
 </p> -->
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" width="400" align="left"/>
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.svg" width="400"/>
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/>
 </div>
 
 
