@@ -32,8 +32,7 @@
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.png" width="400"/>
 </div>
 
-<!-- 
-<p align="center">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.png" width="90%" align="center" />
-</p>
- -->
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="800"/>
+</div>
+
