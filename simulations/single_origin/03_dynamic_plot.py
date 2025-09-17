@@ -5,9 +5,10 @@ import numpy as np
 from scipy.spatial import distance_matrix
 from multiprocessing import Pool, cpu_count
 import matplotlib.pyplot as plt
+import click
 
-
-
+@click.command()
+@click.option("--base_dir", type=str, help="Folder with store simulation results")
 def find_all_blocks_files(base_dir):
     """
     递归遍历 base_dir 目录，找到所有 `blocks_*.h5` 文件。
