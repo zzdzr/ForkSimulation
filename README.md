@@ -1,13 +1,16 @@
 ## Simulation of Fork Dynamics
 <div style="ddisplay: flex; justify-content: center; gap: 20px">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="400"/>
+  <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="400"/> -->
 </div>
 
 <p align="center">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="90%" align="center" />
 </p>
 
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="800" align="center" />
+</div>
 
 
 
@@ -31,6 +34,8 @@
   <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/> -->
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.svg" width="800" align="center" />
 </div>
+
+---
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="800"/>
