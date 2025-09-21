@@ -50,8 +50,8 @@
 
 <!-- <div style="display: flex; justify-content: center; gap: 20px;">
   <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/> -->
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.svg" width="800" align="center" />
-</div> -->
+  <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.svg" width="800" align="center" />
+</div> --> 
 
 > [!WARNING]  
 > Fork collisions and stalling events may occur under replication stress,  
