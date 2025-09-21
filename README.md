@@ -25,21 +25,14 @@
 
 ---
 
-## Table of Contents
-- [Simulation of fork dynamics](#simulation-of-fork-dynamics)
-- [Simulation of two replication forks](#simulation-of-two-replication-forks)
-- [Algorithm flowcharts](#algorithm-flowcharts)
-- [Citation](#citation)
-
----
-
 ## Simulation of Fork Dynamics
-<p align="center">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400"/>
-</p>
+<div style="ddisplay: flex; justify-content: center; gap: 20px">
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
+  <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="400"/> -->
+</div>
 
 <p align="center">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="90%"/>
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="90%" align="center" />
 </p>
 
 <div style="display: flex; justify-content: center; gap: 20px;">
@@ -47,47 +40,44 @@
 </div>
 
 > [!NOTE]  
-> The **rescaled analysis** highlights fork dynamics across different chromatin contexts.  
-> The green rectangles represent coverage regions in rescaled fountains.
+> The green rectangles indicate rescaled type-II fountain coverage regions.  
+> Replication timing is represented by the S50 profile (NT, HU, APH).
 
 ---
 
 ## Simulation of Two Replication Forks
 <p align="center">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" alt="Two forks" width="400" align="left" />
-</p>
-
-This animation demonstrates the dynamics of two replication forks:
+  This animation demonstrates the dynamics of two replication forks:
 
 - **Left panel**: progressive fork movement over time  
 - **Right panel**: representative frame snapshot  
+- More details are available in the `docs/` folder  
 
 <br clear="left"/>
-
-<p align="center">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.svg" width="800" align="center" />
 </p>
 
+<!-- 保持你原有注释掉的div不动 -->
+<!-- <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" width="400" align="left"/>
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/>
+</div> -->
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/> -->
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.svg" width="800" align="center" />
+</div>
+
 > [!WARNING]  
-> Fork collisions or stalling events may emerge under replication stress,  
-> which can be further explored in extended simulations.
+> Fork collisions and stalling events may occur under replication stress,  
+> which can be further investigated in extended simulations.
 
 ---
 
 ## Algorithm Flowcharts
-<p align="center">
+<div style="display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="800"/>
-</p>
+</div>
 
 ---
 
-## Citation
-If you are using this code, please cite:
-
-```bibtex
-@article{forksimulation2025,
-  title={Simulation of replication fork dynamics under chromatin constraints},
-  author={Your Name and Collaborators},
-  journal={Preprint},
-  year={2025}
-}
