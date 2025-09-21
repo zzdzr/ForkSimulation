@@ -1,6 +1,6 @@
 # ForkSimulation
 
-**ForkSimulation** is a coarse-grained molecular dynamics framework to investigate how replication forks propagate and interact with chromatin architecture under replication stress.
+**ForkSimulation** is a coarse-grained molecular dynamics framework to investigate the spatial organizations of coupled replication forks.
 
 ---
 
