@@ -7,8 +7,8 @@
 ## Table of Contents
 - [Simulation of Fork Dynamics](#simulation-of-fork-dynamics)
 - [Simulation of Two Replication Forks](#simulation-of-two-replication-forks)
-- [Algorithm1 Implementation](#algorithm-implementation)
-- [Algorithm2 Flowcharts](#algorithm-implementation)
+- [Algorithm1 Implementation](#algorithm1-implementation)
+- [Algorithm2 Flowcharts](#algorithm2-implementation)
 
 ---
 
@@ -24,7 +24,7 @@
 
 ---
 
-## Algorithm Implementation
+## Algorithm1 Implementation
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="800" align="center" />
 </div>
@@ -64,7 +64,7 @@
 
 ---
 
-## Algorithm Implementation
+## Algorithm2 Implementation
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="800"/>
 </div>
