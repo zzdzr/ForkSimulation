@@ -29,8 +29,6 @@
 
 ---
 
-## :bar_chart: Ensemble Averaging
-
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="400" align="left"/>
   <div>
