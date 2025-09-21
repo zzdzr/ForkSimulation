@@ -16,8 +16,8 @@
 
 ## Simulation of Fork Dynamics
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400"/>
   <div>
     <ul>
       <li><b>Perform 100 independent simulations</b>, each corresponding to a single-molecule dynamics trajectory.</li>
