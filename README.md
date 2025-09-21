@@ -6,13 +6,6 @@
 
 ---
 
-## Simulation Movie
-
-<p align="center">
-  <img src="img/movie.gif" width="500"/>
-</p>
-
-
 ## Table of Contents
 - [Simulation of Fork Dynamics](#simulation-of-fork-dynamics)
 - [Simulation of Two Replication Forks](#simulation-of-two-replication-forks)
@@ -24,6 +17,11 @@
 ## Simulation of Fork Dynamics
 <div style="ddisplay: flex; justify-content: center; gap: 20px">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
+  <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="400"/> -->
+</div>
+
+<div style="ddisplay: flex; justify-content: center; gap: 20px">
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/img/movie.gif" width="400" align="left"/>
   <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="400"/> -->
 </div>
 
