@@ -61,8 +61,6 @@
 </div> --> 
 
 > [!WARNING]  
-> Fork collisions and stalling events may occur under replication stress,  
-> which can be further investigated in extended simulations.
 
 ---
 
