@@ -17,12 +17,13 @@
 ## :movie_camera: Simulation of Fork Dynamics
 <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
 
+<h3>Key Points</h3>
+
 <ul>
   <li><b>100 independent simulations</b>, each corresponding to a single-molecule dynamics trajectory</li>
   <li>Illustrate the <b>stochastic behavior</b> of replication forks under identical initial conditions</li>
   <li>Enable the analysis of <b>variability</b> across simulations and emergent ensemble behavior</li>
 </ul>
-
 <p align="center">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="90%" />
 </p>
