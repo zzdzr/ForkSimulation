@@ -1,67 +1,50 @@
 # ForkSimulation
 
-**ForkSimulation** is a coarse-grained molecular dynamics framework to investigate the spatial organizations of coupled replication forks.
+**ForkSimulation** is a coarse-grained molecular dynamics framework to investigate the spatial organizations of coupled replication forks.  
+
 > [!NOTE]  
 > The code of this project is continuously updating.
 
 ---
 
 ## Table of Contents
-- [Simulation of Fork Dynamics](#simulation-of-fork-dynamics)
-- [Simulation of Two Replication Forks](#simulation-of-two-replication-forks)
-- [Algorithm1 Implementation](#algorithm1-implementation)
-- [Algorithm2 Flowcharts](#algorithm2-implementation)
+- [:movie_camera: Simulation of Fork Dynamics](#movie_camera-simulation-of-fork-dynamics)
+- [:bar_chart: Ensemble Averaging](#bar_chart-ensemble-averaging)
+- [:movie_camera: Simulation of Two Replication Forks](#movie_camera-simulation-of-two-replication-forks)
+- [:gear: Algorithm1 Implementation](#gear-algorithm1-implementation)
+- [:gear: Algorithm2 Flowcharts](#gear-algorithm2-flowcharts)
 
 ---
 
-## Simulation of Fork Dynamics
+## :movie_camera: Simulation of Fork Dynamics
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
-  <div>
-    <ul>
-      <li><b>Perform 100 independent simulations</b>, each corresponding to a single-molecule dynamics trajectory.</li>
-      <li>This illustrates the <b>stochastic behavior</b> of replication forks under identical initial conditions.</li>
-      <li>Enables the analysis of <b>variability</b> across simulations and emergent ensemble behavior.</li>
-    </ul>
-  </div>
-</div>
-
-<p align="center">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="90%" />
-</p>
+| <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400"/> | <ul><li><b>100 independent simulations</b>, each corresponding to a single-molecule dynamics trajectory.</li><li>Reveal the <b>stochastic behavior</b> of replication forks under identical initial conditions.</li><li>Provide insight into <b>variability</b> across simulations.</li></ul> |
+|---|---|
 
 ---
 
-## Algorithm1 Implementation
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="800" align="center" />
-</div>
+## :bar_chart: Ensemble Averaging
 
-> [!NOTE]  
-> This diagram illustrates the algorithm used in ForkSimulation.  
-> The code of this project is continuously updating.
+| <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="400"/> | <ul><li>At each time frame, the states of all 100 simulations were <b>averaged</b>.</li><li>This produces the <b>ensemble behavior</b> of replication forks.</li><li>Highlights <b>collective trends</b> rather than individual fluctuations.</li></ul> |
+|---|---|
 
 ---
 
-## Simulation of Two Replication Forks
-<p align="center">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" alt="Two forks" width="400" align="left" />
-  This animation demonstrates the dynamics of two replication forks:
-<br clear="left"/>
-</p>
+## :movie_camera: Simulation of Two Replication Forks
 
-
-<!-- <div style="display: flex; justify-content: center; gap: 20px;">
-  <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/> -->
-  <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.svg" width="800" align="center" />
-</div> --> 
-
-> [!WARNING]  
+| <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" width="400"/> | <ul><li>This animation demonstrates the dynamics of <b>two replication forks</b>.</li><li><b>Left panel</b>: progressive fork movement over time.</li><li><b>Right panel</b>: representative frame snapshot.</li><li>More details are available in the <code>docs/</code> folder.</li></ul> |
+|---|---|
 
 ---
 
-## Algorithm2 Implementation
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="800"/>
-</div>
+## :gear: Algorithm1 Implementation
+
+| <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="800"/> | <ul><li>This diagram illustrates the first algorithm implemented in <b>ForkSimulation</b>.</li><li>It highlights the computational pipeline used to simulate fork dynamics.</li><li>The project code is continuously being updated.</li></ul> |
+|---|---|
+
+---
+
+## :gear: Algorithm2 Flowcharts
+
+| <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="800"/> | <ul><li>This diagram shows the second algorithmic workflow for fork dynamics simulation.</li><li>It provides an alternative implementation strategy compared with Algorithm1.</li><li>Future updates will refine and extend this workflow.</li></ul> |
+|---|---|
