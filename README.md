@@ -31,7 +31,7 @@
 
 > [!NOTE]  
 > This diagram illustrates the algorithm used in ForkSimulation.  
-> It connects Monte Carlo sampling with fork propagation rules.
+> The code of this project is continuously updating.
 
 ---
 
@@ -47,16 +47,11 @@
 <br clear="left"/>
 </p>
 
-<!-- 保持你原有注释掉的div不动 -->
-<!-- <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" width="400" align="left"/>
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/>
-</div> -->
 
-<div style="display: flex; justify-content: center; gap: 20px;">
+<!-- <div style="display: flex; justify-content: center; gap: 20px;">
   <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/> -->
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.svg" width="800" align="center" />
-</div>
+</div> -->
 
 > [!WARNING]  
 > Fork collisions and stalling events may occur under replication stress,  
