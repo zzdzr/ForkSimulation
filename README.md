@@ -7,8 +7,8 @@
 ## Table of Contents
 - [Simulation of Fork Dynamics](#simulation-of-fork-dynamics)
 - [Simulation of Two Replication Forks](#simulation-of-two-replication-forks)
+- [Algorithm Implementation](#algorithm-implementation)
 - [Algorithm Flowcharts](#algorithm-flowcharts)
-- [Citation](#citation)
 
 ---
 
@@ -22,13 +22,16 @@
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="90%" align="center" />
 </p>
 
+---
+
+## Algorithm Implementation
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="800" align="center" />
 </div>
 
 > [!NOTE]  
-> The green rectangles indicate rescaled type-II fountain coverage regions.  
-> Replication timing is represented by the S50 profile (NT, HU, APH).
+> This diagram illustrates the algorithm used in ForkSimulation.  
+> It connects Monte Carlo sampling with fork propagation rules.
 
 ---
 
@@ -65,5 +68,3 @@
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="800"/>
 </div>
-
----
