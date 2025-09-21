@@ -1,43 +1,52 @@
-## Simulation of Fork Dynamics
-<div style="ddisplay: flex; justify-content: center; gap: 20px">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
-  <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="400"/> -->
-</div>
-
+<h1>
 <p align="center">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="90%" align="center" />
+    <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" alt="ForkSimulation logo" width="300"/>
+</p>
+</h1>
+
+<!-- Badges -->
+<p align="center">
+  <!-- DOI badge -->
+  <a href="https://doi.org/10.1101/2025.01.01.000000">
+    <img src="https://zenodo.org/badge/DOI/10.1101/2025.01.01.000000.svg" alt="DOI"/>
+  </a>
+  <!-- Python version -->
+  <a href="https://www.python.org/downloads/">
+    <img src="https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white" alt="Python 3.10+"/>
+  </a>
+  <!-- License -->
+  <a href="https://github.com/zzdzr/ForkSimulation/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/zzdzr/ForkSimulation" alt="License"/>
+  </a>
+  <!-- Release -->
+  <a href="https://github.com/zzdzr/ForkSimulation/releases">
+    <img src="https://img.shields.io/github/v/release/zzdzr/ForkSimulation?color=green&label=release" alt="GitHub release"/>
+  </a>
+  <!-- Build/CI -->
+  <a href="https://github.com/zzdzr/ForkSimulation/actions">
+    <img src="https://github.com/zzdzr/ForkSimulation/actions/workflows/tests.yml/badge.svg" alt="Build status"/>
+  </a>
 </p>
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg.png" width="800" align="center" />
-</div>
+# ForkSimulation
 
+**ForkSimulation** is a coarse-grained molecular dynamics framework to investigate how replication forks propagate and interact with chromatin architecture under replication stress.
 
-
-## Simulation of two replication forks
-<p align="center">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" alt="Two forks" width="400" align="left" />
-  This animation demonstrates the dynamics of two replication forks:
-
-- **Left panel**: progressive fork movement over time  
-- **Right panel**: representative frame snapshot  
-- More details are available in the `docs/` folder  
-
-<br clear="left"/>
-</p>
-<!-- <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" width="400" align="left"/>
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/>
-</div> -->
-
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/> -->
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.svg" width="800" align="center" />
-</div>
+For more details, see the [`docs/`](./docs) folder and the [citation](#citation).
 
 ---
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="800"/>
-</div>
+## Table of Contents
+- [Installation](#installation)
+- [Simulation of fork dynamics](#simulation-of-fork-dynamics)
+- [Simulation of two replication forks](#simulation-of-two-replication-forks)
+- [Algorithm flowcharts](#algorithm-flowcharts)
+- [Citation](#citation)
 
+---
+
+## Installation
+ForkSimulation is provided as a pip-installable package:
+
+```bash
+pip install forksimulation
