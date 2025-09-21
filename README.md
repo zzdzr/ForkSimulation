@@ -15,7 +15,7 @@
 ---
 
 ## :movie_camera: Simulation of Fork Dynamics
-<img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="right"/>
+<img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
 
 - **100 independent simulations**, each corresponding to a single-molecule dynamics trajectory  
 - Illustrate the **stochastic behavior** of replication forks under identical initial conditions  
