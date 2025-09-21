@@ -15,12 +15,13 @@
 ---
 
 ## :movie_camera: Simulation of Fork Dynamics
-<img src=".../simulations3.gif" width="400" align="left"/>
+<img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
 
-- **100 independent simulations**, each corresponding to a single-molecule dynamics trajectory  
-- Illustrate the **stochastic behavior** of replication forks under identical initial conditions  
-- Enable the analysis of **variability** across simulations and emergent ensemble behavior  
-
+<ul>
+  <li><b>100 independent simulations</b>, each corresponding to a single-molecule dynamics trajectory</li>
+  <li>Illustrate the <b>stochastic behavior</b> of replication forks under identical initial conditions</li>
+  <li>Enable the analysis of <b>variability</b> across simulations and emergent ensemble behavior</li>
+</ul>
 
 <p align="center">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="90%" />
@@ -39,14 +40,12 @@
 
 ---
 
-## :movie_camera: Simulation of Two Replication Forks
-<img src=".../simulations5.png" width="400" align="left"/>
-
-- This animation demonstrates the dynamics of **two replication forks**  
-- **Left panel**: progressive fork movement over time  
-- **Right panel**: representative frame snapshot  
-- More details are available in the `docs/` folder  
-
+## Simulation of Two Replication Forks
+<p align="center">
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" alt="Two forks" width="400" align="left" />
+  This animation demonstrates the dynamics of two replication forks:
+<br clear="left"/>
+</p>
 
 
 <!-- <div style="display: flex; justify-content: center; gap: 20px;">
