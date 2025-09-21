@@ -14,31 +14,22 @@
 
 ---
 
-## :movie_camera: Simulation of Fork Dynamics
+## Simulation of Fork Dynamics
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="display: flex; align-items: center; gap: 20px;">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
   <div>
     <ul>
-      <li><b>100 independent simulations</b>, each corresponding to a single-molecule dynamics trajectory.</li>
-      <li>Illustrate the <b>stochastic behavior</b> of replication forks under identical initial conditions.</li>
-      <li>Enable the analysis of <b>variability</b> across simulations and emergent ensemble behavior.</li>
+      <li><b>Perform 100 independent simulations</b>, each corresponding to a single-molecule dynamics trajectory.</li>
+      <li>This illustrates the <b>stochastic behavior</b> of replication forks under identical initial conditions.</li>
+      <li>Enables the analysis of <b>variability</b> across simulations and emergent ensemble behavior.</li>
     </ul>
   </div>
 </div>
 
----
-
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="400" align="left"/>
-  <div>
-    <ul>
-      <li>At each time frame, the states of all 100 simulations were <b>averaged</b>.</li>
-      <li>This produces the <b>ensemble behavior</b> of replication forks.</li>
-      <li>Highlights <b>collective trends</b> rather than individual fluctuations.</li>
-    </ul>
-  </div>
-</div>
+<p align="center">
+  <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations2.png" width="90%" />
+</p>
 
 ---
 
