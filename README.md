@@ -6,6 +6,13 @@
 
 ---
 
+## Simulation Movie
+
+<p align="center">
+  <img src="img/movie.gif" width="500"/>
+</p>
+
+
 ## Table of Contents
 - [Simulation of Fork Dynamics](#simulation-of-fork-dynamics)
 - [Simulation of Two Replication Forks](#simulation-of-two-replication-forks)
