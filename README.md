@@ -1,27 +1,14 @@
-<h1>
-<p align="center">
-    <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" alt="ForkSimulation logo" width="300"/>
-</p>
-</h1>
-
-<p align="center">
-  <a href="https://doi.org/10.1101/2025.01.01.000000">
-    <img src="https://zenodo.org/badge/DOI/10.1101/2025.01.01.000000.svg" alt="DOI"/>
-  </a>
-  <a href="https://www.python.org/downloads/">
-    <img src="https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white" alt="Python 3.10+"/>
-  </a>
-  <a href="https://github.com/zzdzr/ForkSimulation/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zzdzr/ForkSimulation" alt="License"/>
-  </a>
-  <a href="https://github.com/zzdzr/ForkSimulation/releases">
-    <img src="https://img.shields.io/github/v/release/zzdzr/ForkSimulation?color=green&label=release" alt="GitHub release"/>
-  </a>
-</p>
-
 # ForkSimulation
 
 **ForkSimulation** is a coarse-grained molecular dynamics framework to investigate how replication forks propagate and interact with chromatin architecture under replication stress.
+
+---
+
+## Table of Contents
+- [Simulation of Fork Dynamics](#simulation-of-fork-dynamics)
+- [Simulation of Two Replication Forks](#simulation-of-two-replication-forks)
+- [Algorithm Flowcharts](#algorithm-flowcharts)
+- [Citation](#citation)
 
 ---
 
@@ -80,4 +67,3 @@
 </div>
 
 ---
-
