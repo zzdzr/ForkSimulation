@@ -1,6 +1,7 @@
 # ForkSimulation
 
-**ForkSimulation** is a coarse-grained molecular dynamics framework to investigate the spatial organizations of coupled replication forks.
+**ForkSimulation** is a coarse-grained molecular dynamics framework, implemented on top of **OpenMM** and **Polychrom**, for modeling the spatial organization and dynamic coupling of replication forks under chromatin environment.
+
 > [!NOTE]  
 > The code of this project is continuously updating.
 
