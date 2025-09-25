@@ -36,7 +36,7 @@
 </div>
 
 > [!NOTE]  
-> This diagram illustrates the algorithm used in ForkSimulation.  
+> This diagram illustrates the algorithm for simulating a pair of replication forks initiated from a single origin.  
 
 ---
 
