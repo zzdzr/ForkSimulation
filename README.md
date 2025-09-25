@@ -36,7 +36,6 @@
 
 > [!NOTE]  
 > This diagram illustrates the algorithm used in ForkSimulation.  
-> The code of this project is continuously updating.
 
 ---
 
@@ -52,8 +51,7 @@
   <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/alg2.png" width="400"/> -->
   <!-- <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations_two_ori.svg" width="800" align="center" />
 </div> --> 
-
-> [!WARNING]  
+  
 
 ---
 
