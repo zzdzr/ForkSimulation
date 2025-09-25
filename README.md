@@ -43,7 +43,7 @@
 ## Simulation of Two Replication Forks
 <p align="center">
   <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations5.png" alt="Two forks" width="400" align="left" />
-  This animation demonstrates the dynamics of two replication forks:
+
 <br clear="left"/>
 </p>
 
