@@ -14,7 +14,7 @@
 
 ---
 
-## :movie_camera: Simulation of Fork Dynamics
+## Simulation of Fork Dynamics
 <img src="https://github.com/zzdzr/ForkSimulation/blob/main/img/simulations3.gif" width="400" align="left"/>
 
 <ul>
